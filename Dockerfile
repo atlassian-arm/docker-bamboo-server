@@ -28,7 +28,6 @@ RUN set -x && \
           openssl \
           openssh-client \
           libtcnative-1 \
-          maven \
      && \
 # create symlink to maven to automate capability detection
      ln -s /usr/share/maven /usr/share/maven3 && \
@@ -50,5 +49,5 @@ VOLUME ["${BAMBOO_HOME}"]
 WORKDIR $BAMBOO_HOME
 
 USER ${BAMBOO_USER}
-COPY  --chown=bamboo:bamboo entrypoint.sh /entrypoint.sh
+COPY --chown=bamboo:bamboo entrypoint.sh /entrypoint.sh
 ENTRYPOINT ["/entrypoint.sh"]
