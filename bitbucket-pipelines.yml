@@ -772,7 +772,7 @@ pipelines:
             services:
               - docker
             script:
-              - apk add --no-cache git docker-compose jq curl
+              - apk add --no-cache git docker-compose jq curl maven
               - git submodule update --init --recursive
               - export BAMBOO_VERSION=$(curl -s https://marketplace.atlassian.com/rest/2/products/key/bamboo/versions/latest | jq -r .name)
               - docker build --build-arg BAMBOO_VERSION=${BAMBOO_VERSION} -t test-image .
