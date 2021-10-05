@@ -18,14 +18,8 @@
         <dependency>
             <groupId>com.atlassian.bamboo</groupId>
             <artifactId>bamboo-docker-image-tests</artifactId>
-            <version>${confluence.version}</version>
+            <version>8.0.1</version>
             <scope>test</scope>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.testng</groupId>
-                    <artifactId>testng</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
     </dependencies>
 
