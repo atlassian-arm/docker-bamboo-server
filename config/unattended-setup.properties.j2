@@ -1,7 +1,7 @@
-db.type={{ atl_db_type | default('postgresql') }}
+db.type={{ atl_db_type }}
 db.user={{ atl_jdbc_user  }}
 db.password={{ atl_jdbc_password  }}
-db.url={{ atl_jdbc_url | default('jdbc:postgresql://localhost:5432/bamboo') }}
+db.url={{ atl_jdbc_url }}
 bamboo.db.timeout = {{ atl_db_timeout | default('120000') }}
 bamboo.db.pool.min.size = {{ atl_db_poolminsize | default('3') }}
 bamboo.db.pool.max.size = {{ atl_db_poolmaxsize | default('170') }}
@@ -9,7 +9,7 @@ bamboo.db.pool.max.size = {{ atl_db_poolmaxsize | default('170') }}
 bamboo.import.option={{ atl_import_option }}
 bamboo.import.path={{ atl_import_path }}
 
-bamboo.base.url={{ atl_base_url | default('http://localhost:8085/') }}
+bamboo.base.url={{ atl_base_url }}
 bamboo.license={{ atl_license }}
 bamboo.broker.uri={{ atl_broker_uri | default('nio://0.0.0.0:54663') }}
 {% if atl_broker_client_uri is defined %}
