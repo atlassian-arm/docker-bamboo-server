@@ -9,7 +9,7 @@ bamboo.db.pool.max.size = {{ atl_db_poolmaxsize | default('170') }}
 bamboo.import.option={{ atl_import_option }}
 bamboo.import.path={{ atl_import_path }}
 
-bamboo.base.url={{ atl_base_url | default('http://localhost:8085/') }}
+bamboo.base.url={{ atl_base_url }}
 bamboo.license={{ atl_license }}
 bamboo.broker.uri={{ atl_broker_uri | default('nio://0.0.0.0:54663') }}
 {% if atl_broker_client_uri is defined %}
