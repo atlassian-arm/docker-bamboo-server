@@ -43,9 +43,13 @@ RUN groupadd --gid ${RUN_GID} ${RUN_GROUP} \
     && useradd --uid ${RUN_UID} --gid ${RUN_GID} --home-dir ${BAMBOO_HOME} --shell /bin/bash ${RUN_USER} \
     && echo PATH=$PATH > /etc/environment \
     \
-    && mkdir -p                             ${BAMBOO_INSTALL_DIR} \
-    && curl -L --silent                     ${DOWNLOAD_URL} | tar -xz --strip-components=1 -C "${BAMBOO_INSTALL_DIR}" \
-    && chmod -R "u=rwX,g=rX,o=rX"           ${BAMBOO_INSTALL_DIR}/ \
+    && mkdir -p                             ${BAMBOO_INSTALL_DIR}
+
+    #    && curl -L --silent                     ${DOWNLOAD_URL} | tar -xz --strip-components=1 -C "${BAMBOO_INSTALL_DIR}" \
+COPY atlassian-bamboo-${BAMBOO_VERSION}.tar.gz /
+RUN tar -xzf /atlassian-bamboo-${BAMBOO_VERSION}.tar.gz --strip-components=1 -C "${BAMBOO_INSTALL_DIR}"
+
+RUN    chmod -R "u=rwX,g=rX,o=rX"           ${BAMBOO_INSTALL_DIR}/ \
     && chown -R root.                       ${BAMBOO_INSTALL_DIR}/ \
     && chown -R ${RUN_USER}:${RUN_GROUP}    ${BAMBOO_INSTALL_DIR}/logs \
     && chown -R ${RUN_USER}:${RUN_GROUP}    ${BAMBOO_INSTALL_DIR}/temp \
