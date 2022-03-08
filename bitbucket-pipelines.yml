@@ -35,7 +35,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -58,7 +58,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -81,7 +81,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -104,7 +104,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -127,7 +127,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -150,7 +150,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -173,7 +173,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -196,7 +196,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -219,7 +219,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -242,7 +242,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -265,7 +265,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -288,7 +288,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -311,7 +311,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -334,7 +334,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -357,7 +357,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --create --create-eap \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile='Dockerfile' \
@@ -411,7 +411,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
@@ -433,7 +433,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
@@ -455,7 +455,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
@@ -477,7 +477,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
@@ -499,7 +499,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
@@ -521,7 +521,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
@@ -543,7 +543,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
@@ -565,7 +565,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
@@ -587,7 +587,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
@@ -609,7 +609,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
@@ -631,7 +631,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
@@ -653,7 +653,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
@@ -675,7 +675,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
@@ -697,7 +697,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
@@ -719,7 +719,7 @@ pipelines:
                 - >
                   python /usr/src/app/make-releases.py \
                     --update \
-                    --start-version='8' \
+                    --start-version='7.1' \
                     --end-version='9' \
                     --default-release \
                     --dockerfile-buildargs='BASE_IMAGE=adoptopenjdk/openjdk11' \
