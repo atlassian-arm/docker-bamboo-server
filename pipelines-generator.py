@@ -8,7 +8,7 @@ images = {
     'Bamboo': {
         11: {
             'mac_key': 'bamboo',
-            'start_version': '8',
+            'start_version': '7.1',
             'end_version': '9',
             'default_release': True,
             'base_image': 'adoptopenjdk/openjdk11',
