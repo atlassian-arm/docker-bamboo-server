@@ -387,7 +387,7 @@ available but are no longer supported.
 # Supported JDK versions
 
 All the Atlassian Docker images are now JDK 11 only, and generated from the
-[official AdoptOpenJDK Docker images](https://hub.docker.com/r/adoptopenjdk/openjdk11).
+[official Eclipse Temurin Docker images](https://hub.docker.com/_/eclipse-temurin/).
 
 The Docker images follow the [Atlassian Support end-of-life
 policy](https://confluence.atlassian.com/support/atlassian-support-end-of-life-policy-201851003.html);

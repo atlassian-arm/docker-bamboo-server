@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=adoptopenjdk/openjdk11
+ARG BASE_IMAGE=eclipse-temurin:11
 FROM $BASE_IMAGE
 
 LABEL maintainer="dc-deployments@atlassian.com"
